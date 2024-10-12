@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JD-TAMIM</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="">
+        <nav class="w-[300px] bg-[#bbbbbb] h-screen fixed">
+            <div class="p-3 border-b-2 rounded-lg m-3 flex flex-col gap-5">
+                <h1 class="font-bold text-3xl text-center py-5 border-b-2 rounded-lg cursor-pointer select-none hover:shadow-lg">JD-TAMIM</h1>
+                <div class="flex flex-col gap-1 ">
+                    <a href="#headerSection" class="font-medium text-lg hover:bg-gray-500 hover:text-white p-2 transition-all duration-100">Home</a>
+                    <a href="#aboutSection" class="font-medium text-lg hover:bg-gray-500 hover:text-white p-2 transition-all duration-100">About</a>
+                    <a href="#projectsSection" class="font-medium text-lg hover:bg-gray-500 hover:text-white p-2 transition-all duration-100">Projects</a>
+                    <a href="#contactSection" class="font-medium text-lg hover:bg-gray-500 hover:text-white p-2 transition-all duration-100">Contact</a>
+                    <a href="#footerSection" class="font-medium text-lg hover:bg-gray-500 hover:text-white p-2 transition-all duration-100">Footer</a>
+                </div>
+            </div>
+        </nav>
+        <div id="container" class="ml-[300px] bg-[#dddddd] min-h-screen">
+            <!-- header section -->
+            <section class="h-screen space-y-5" id="headerSection">
+                <h1 class="font-bold text-5xl text-center py-5 bg-[#bbbbbb]">Welcome to our website</h1>
+                <div style="background: url('./img/banner.png'); background-size: cover; object-fit: cover;" class="w-2/3 mx-auto h-[600px] rounded-lg"></div>
+            </section>
+            <!-- about section -->
+            <section class="w-2/3 mx-auto flex items-center border-b-2" id="aboutSection">
+                <div class="flex-1 space-y-3">
+                    <h3 class="font-bold text-2xl ">Introduce myself</h3>
+                    <p class="font-medium text-sm">Hi, I'm Atic, a passionate junior web developer who loves turning creative ideas into functional, user-friendly websites. My journey in web development has been fueled by my curiosity for technology and a constant drive to learn and improve.</p>
+                </div>
+                <div class="flex-1"><img src="./img/me.png" class="w-full object-cover " alt="My pic"></div>
+            </section>
+            <!-- projects section -->
+            <section class="w-2/3 mx-auto space-y-5 my-20" id="projectsSection">
+                <h2 class="font-bold text-3xl text-center">Projects</h2>
+                <div class="flex flex-col gap-3">
+                    <!-- new project -->
+                    <div class="flex items-center p-3 gap-5 rounded-lg border-2">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-2xl ">Project one</h3>
+                            <p class="font-medium text-sm text-zinc-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam molestiae consequuntur excepturi ab doloribus cupiditate nisi reiciendis libero doloremque debitis?</p>
+                        </div>
+                        <div style="background: url('./img/projects/one.png'); background-size: cover; object-fit: cover;" class="flex-1 h-[300px] rounded-lg">
+
+                        </div>
+                    </div>
+                    <!-- new project -->
+                    <div class="flex flex-row-reverse items-center p-3 gap-5 rounded-lg border-2">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-2xl ">Project one</h3>
+                            <p class="font-medium text-sm text-zinc-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam molestiae consequuntur excepturi ab doloribus cupiditate nisi reiciendis libero doloremque debitis?</p>
+                        </div>
+                        <div style="background: url('./img/projects/two.png'); background-size: cover; object-fit: cover;" class="flex-1 h-[300px] rounded-lg">
+
+                        </div>
+                    </div>
+                    <!-- new project -->
+                    <div class="flex items-center p-3 gap-5 rounded-lg border-2">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-2xl ">Project one</h3>
+                            <p class="font-medium text-sm text-zinc-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam molestiae consequuntur excepturi ab doloribus cupiditate nisi reiciendis libero doloremque debitis?</p>
+                        </div>
+                        <div style="background: url('./img/projects/three.png'); background-size: cover; object-fit: cover;" class="flex-1 h-[300px] rounded-lg">
+
+                        </div>
+
+                        
+                    </div>
+                    <!-- new project -->
+                    <div class="flex flex-row-reverse items-center p-3 gap-5 rounded-lg border-2">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-2xl ">Project one</h3>
+                            <p class="font-medium text-sm text-zinc-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam molestiae consequuntur excepturi ab doloribus cupiditate nisi reiciendis libero doloremque debitis?</p>
+                        </div>
+                        <div style="background: url('./img/projects/four.png'); background-size: cover; object-fit: cover;" class="flex-1 h-[300px] rounded-lg">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact section -->
+            <section class="w-2/3 mx-auto space-y-5 my-20 bg-zinc-100 rounded-lg px-10 py-5" id="contactSection">
+                <form action="https://jd-tamim-backend.onrender.com/contactPost" method="post" class="p-3 rounded-lg grid grid-cols-2 gap-3">
+                    <div class="space-y-1">
+                        <label for="fullname">Full Name:</label>
+                        <input class="text-lg p-2.5 rounded-lg outline-none border-b-2 w-full" type="text" required placeholder="Enter your fullname.." name="fullname">
+                    </div>
+                    <div class="space-y-1">
+                        <label for="phonenumber">Phone Number:</label>
+                        <input class="text-lg p-2.5 rounded-lg outline-none border-b-2 w-full" type="text" required placeholder="Enter your number.." name="phonenumber">
+                    </div>
+                    <div class="space-y-1">
+                        <label for="email">Email:</label>
+                        <input class="text-lg p-2.5 rounded-lg outline-none border-b-2 w-full" type="email" required placeholder="Enter your email.." name="email">
+                    </div>
+                    <div class="space-y-1">
+                        <label for="title">Message Title:</label>
+                        <input class="text-lg p-2.5 rounded-lg font-medium outline-none border-b-2 w-full" type="text" required placeholder="Enter your title.." name="title">
+                    </div>
+                    <div class="col-span-2 space-y-1">
+                        <label for="message">Message:</label>
+                        <textarea name="message" required placeholder="Enter your message or comment..." class="text-base p-2.5 rounded-lg outline-none border-b-2 w-full resize-none h-[150px]" id=""></textarea>
+                    </div>
+                    <div class="col-span-2 flex justify-center items-center gap-5">
+                        <input class="py-2.5 px-6 font-medium text-lg cursor-pointer border-2 border-orange-500 hover:bg-orange-500 text-orange-500 transition-all duration-100 ease-linear hover:text-white rounded-lg" type="reset" value="Reset">
+                        <input class="py-2.5 px-6 font-medium text-lg cursor-pointer border-2 bg-[#008CBA] active:bg-transparent active:text-[#008CBA] hover:border-[#008CBA] rounded-lg text-white" type="submit" value="Submit">
+                    </div>
+                </form>
+            </section>
+            <footer class="py-20 bg-[#bbbbbb] text-center" id="footerSection">
+                    <h3 class="text-3xl font-bold mb-2">Social media</h3>
+                    <div class="space-x-3 mb-5">
+                        <a href=""><i class="fa-brands fa-facebook text-3xl text-blue-500"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter text-3xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-whatsapp text-3xl text-green-500"></i></a>
+                        <a href=""><i class="fa-brands fa-square-github text-3xl"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube text-3xl text-red-500 "></i></a>
+                    </div>
+                    <p>&copy;2024 JD-TAMIM. all rights reserved</p>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
