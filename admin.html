@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <nav class="w-[300px] bg-[#bbbbbb] h-screen fixed">
+            <div class="p-3 border-b-2 rounded-lg m-3 flex flex-col gap-5">
+                <h1 class="font-bold text-3xl text-center py-5 border-b-2 rounded-lg cursor-pointer select-none hover:shadow-lg">JD-TAMIM</h1>
+                <div class="flex flex-col gap-1 ">
+                    <button id="home-btn" class="bg-slate-100 font-medium text-start text-lg hover:bg-gray-500 hover:text-white p-2 transition-all duration-100">Home</button>
+                    <button id="contact-btn" class="font-medium text-start text-lg hover:bg-gray-500 hover:text-white p-2 transition-all duration-100">Contact post</button>
+                </div>
+            </div>
+        </nav>
+        <main class="ml-[300px] bg-slate-100 min-h-screen">
+            <h1 class="text-5xl text-center py-5 font-bold border-b-2">Admin panel</h1>
+            <section id="contact-section" class="hidden">
+                <div id="contactPostDiv" class="w-2/3 mx-auto mt-20 border-2 rounded-lg p-5 space-y-5">
+                   <!-- dynamic item load -->
+                </div>
+            </section>
+        </main>
+    </main>
+
+    <script src="./js/admin.js"></script>
+</body>
+</html>
